@@ -9,8 +9,9 @@
       font-family: 'Times New Roman', Times, serif;
       margin: 0;
       padding: 0;
-   <img src="https://raw.githubusercontent.com/Kea-Tan/StBanny/refs/heads/main/image.jpg" alt="Invitation"> <!-- Fixed URL -->
-    <div class="btn-group">
+      background: url('https://raw.githubusercontent.com/Kea-Tan/StBanny/main/background.jpg') no-repeat center center fixed; /* Fixed URL */
+      background-size: cover; /* Ensures the background covers the entire screen */
+      display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
@@ -140,8 +141,7 @@
   </div>
 
   <div class="invitation" id="invitation">
-     background: url('https://raw.githubusercontent.com/Kea-Tan/StBanny/refs/heads/main/image.jpg') no-repeat center center fixed; /* Fixed URL */
-      background-size: cover; /* Ensures the background covers the entire screen */
+    <img src="https://raw.githubusercontent.com/Kea-Tan/StBanny/main/image.jpg" alt="Invitation"> <!-- Fixed URL -->
     <div class="btn-group">
       <button class="btn" onclick="showPopup('yes')">Yes</button>
       <button class="btn" onclick="showPopup('next-time')">Let’s Set Next Time</button>
